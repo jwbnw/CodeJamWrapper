@@ -25,7 +25,6 @@ namespace codeJamWrapper
                     var testData = sr.ReadLine();
                     char[] testDataArr = testData.ToCharArray();
 
-                    //CallMyAnswer it will take a char array of the input are return a string answer 
                     string answer = myAnswer(testDataArr);
 
                     writeToFile(answer);
@@ -56,13 +55,10 @@ namespace codeJamWrapper
             }
 
         }
-
          static string myAnswer(char[] line)
         {
 
             //program logic here
-
-
 
             return null;
         }
